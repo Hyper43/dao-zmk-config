@@ -9,7 +9,7 @@ This is a repository for a ZMK Firmware for both Dao42 and Dao44 keyboards.
 
 ### Dao42
 
-Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/67a81f6b83c65abcda5e7f32989a1688)
+Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/12b7ec38403b74480106b5db67c03fbf)
 
 This layout is heavily inspired by [this](https://github.com/aroum/Watchman-layouts)
 
