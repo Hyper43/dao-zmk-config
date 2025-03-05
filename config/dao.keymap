@@ -137,5 +137,14 @@
                                          &trans        &none         &trans        &trans        &none         &trans
             >;
         };
+
+        add_layer {
+            bindings = <
+&kp ESCAPE  &trans                &trans                &trans                &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans                &trans                &trans                &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))  &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
+                                                        &kp DELETE            &kp BACKSPACE  &kp ENTER  &trans  &trans  &trans
+            >;
+        };
     };
 };
