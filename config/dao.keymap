@@ -52,8 +52,8 @@
             key-positions = <6 7>;
         };
 
-        left_bracket {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        alt_print_scr {
+            bindings = <&kp LA(PRINTSCREEN)>;
             key-positions = <16 17>;
         };
 
@@ -105,7 +105,7 @@
         default_layer {
             bindings = <
 &mt LGUI GRAVE      &kp Q  &kp W  &kp E        &kp R            &kp T           &kp Y          &kp U           &kp I        &kp O    &kp P     &kp LBKT
-&mt LEFT_ALT MINUS  &kp A  &kp S  &kp D        &kp F            &kp G           &kp H          &kp J           &kp K        &kp L    &kp SEMI  &mt RIGHT_ALT SQT
+&mt LEFT_ALT MINUS  &kp A  &kp S  &kp D        &lt 4 F          &kp G           &kp H          &lt 4 J         &kp K        &kp L    &kp SEMI  &mt RIGHT_ALT SQT
 &mt LCTRL BSLH      &kp Z  &kp X  &kp C        &kp V            &kp B           &kp N          &kp M           &kp COMMA    &kp DOT  &kp FSLH  &mt RCTRL RBKT
                                   &lt RSE TAB  &mt LSHFT SPACE  &lt LWR ESCAPE  &lt LWR ENTER  &mt RSHFT BSPC  &lt RSE DEL
             >;
@@ -140,10 +140,10 @@
 
         add_layer {
             bindings = <
-&kp ESCAPE  &trans                &trans                &trans                &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans                &trans                &trans                &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))  &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                                                        &kp DELETE            &kp BACKSPACE  &kp ENTER  &trans  &trans  &trans
+&kp ESCAPE  &trans                &trans                &trans                &trans                &trans          &trans                &trans          &trans          &trans          &trans          &trans
+&trans      &kp LC(X)             &kp LC(C)             &kp LC(V)             &trans                &trans          &trans                &trans          &trans          &trans          &trans          &trans
+&trans      &kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))  &kp LC(LA(NUMBER_4))  &kp LC(LA(N5))  &kp LC(LA(NUMBER_6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &trans
+                                                        &kp DELETE            &kp BACKSPACE         &kp ENTER       &trans                &trans          &trans
             >;
         };
     };
