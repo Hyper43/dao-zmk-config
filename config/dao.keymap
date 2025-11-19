@@ -42,34 +42,9 @@
             key-positions = <12 13>;
         };
 
-        left_square_bracket {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <4 5>;
-        };
-
-        right_square_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 7>;
-        };
-
         alt_print_scr {
             bindings = <&kp LA(PRINTSCREEN)>;
             key-positions = <16 17>;
-        };
-
-        right_bracket {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 19>;
-        };
-
-        left_curly_bracket {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <28 29>;
-        };
-
-        right_curly_bracket {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <30 31>;
         };
 
         assig {
